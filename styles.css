@@ -1,0 +1,13 @@
+ul.nav {
+	display: contents;
+}
+
+div#logo {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL0VflN9f3nzKEDi-Lz8djf5JxqTY95_DqoiZg2yn4R3Gt97a4&usqp=CAU');
+}
+
+body {
+	background-image: url('https://images.assetsdelivery.com/compings_v2/mlyr/mlyr1904/mlyr190400015.jpg');
+	background-repeat: repeat;
+}
+

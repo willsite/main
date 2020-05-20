@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
 	<title>Actividad 2</title>
 </head>
-<body>
-	<header>
-		<div><a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL0VflN9f3nzKEDi-Lz8djf5JxqTY95_DqoiZg2yn4R3Gt97a4&usqp=CAU" alt="logo"></a>
-		<center><h1>Renta de automóviles XYZ</h1></center>
+<body class="container">
+	
+	<header class="page-title container clearfix">
+		<!--logo -->
+		<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+			<a href="index.html">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL0VflN9f3nzKEDi-Lz8djf5JxqTY95_DqoiZg2yn4R3Gt97a4&usqp=CAU" alt="logo">
+			</a>
+		</div>
+			<div class="page-header col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<a href="index.html">
+					<h1>Renta de automoviles XYZ</h1>
+				</a>
+			</div>
 	</header>
-	<nav>
-	    <ul>
+
+
+	<nav class="navbar-static-top container clearfix">
+	    <ul class="nav nav-tabs" role="tablist">
 	        <li><a href="autos.html">Nuestros Autos</a></li>
 	        <li><a href="contacto.html">Contacto</a></li>
-	        <li><a href="index.html">Inicio</a></li>
+	        <li class="active"><a href="index.html">Inicio</a></li>
 	    </ul>
 	</nav>
-	<main width="100%">
-		<div align="left" width="33%">
+	
+	<main class="container">
+
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 			<h3>
 				Nuestros veh&iacute;culos
 			</h3>
 			<a href="autos.html">Conoce aqui</a> nuestros autos para que cotices tu favorito
 		</div>
-		<div align="center" width="34%">
+	
+		<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 			<h2>No tienes veh&iacute;culo y quieres andar seguro y tranquilo por tu ciudad?</h2> Alqu&iacute;lelo!!! 
-			<a href="contacto.html">cont&aacute;ctanos</a> para que solicites tu cotizaci&oocute;n en l&iacute;nea.
-
+			<a href="contacto.html">cont&aacute;ctanos</a> para que solicites tu cotizaci&oacute;n en l&iacute;nea.
 		</div>
-		<div align="right" width="33%">
+
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<h3><a class="" href="contacto.html">Cont&aacute;ctenos</a></h3>
 
 		</div>
 	</main>
-	<footer>
-		  <ul>
-	        <li><a href="autos.html">Nuestros Autos</a></li>
-	        <li><a href="contacto.html">Contacto</a></li>
-	        <li><a href="contacto.html">Blog</a></li>
-	        <li><a href="https://willsite.github.io">Creado por @willsite</a></li>
+	<footer class="container">
+		  <ul class="footer list-group">
+	        <li class="list-group-item"><a href="autos.html">Nuestros Autos</a></li>
+	        <li class="list-group-item"><a href="contacto.html">Contacto</a></li>
+	        <li class="list-group-item active"><a href="contacto.html">Inicio</a></li>
+	        <li class="list-group-item"><a href="https://willsite.github.io">Creado por @willsite</a></li>
 	    </ul>
 	</footer>
 
